@@ -1,0 +1,423 @@
+Compilazione avviata alle 13:08...
+1>------ Inizio compilazione: Progetto: Cravex API, Configurazione: Release x64 ------
+1>D:\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(523,5): warning MSB8004: la directory Intermediate non termina con una barra finale. Nell'istanza della compilazione verrà aggiunta la barra poiché è necessaria per consentire la corretta valutazione della directory Intermediate.
+1>D:\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: la directory intermedia (Build\) contiene file condivisi da un altro progetto (Altnantis V6 API.vcxproj, Atlantis V6 API.vcxproj, YubxInternal.vcxproj). Tale condizione può comportare un comportamento di pulizia e ricompilazione non corretto.
+1>PipesHandler.cpp
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(103,9): warning C4005: 'AF_IPX': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(457,9):
+1>    vedi la precedente definizione di 'AF_IPX'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(147,9): warning C4005: 'AF_MAX': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(476,9):
+1>    vedi la precedente definizione di 'AF_MAX'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(187,9): warning C4005: 'SO_DONTLINGER': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(399,9):
+1>    vedi la precedente definizione di 'SO_DONTLINGER'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(246,16): error C2011: 'sockaddr': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(482,8):
+1>    vedere la dichiarazione di 'sockaddr'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(448,5): error C2143: errore di sintassi: '}' mancante prima di 'costante'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(448,5): error C2059: errore di sintassi: 'costante'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(502,1): error C2143: errore di sintassi: ';' mancante prima di '}'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(502,3): error C4430: identificatore di tipo mancante, verrà utilizzato int. Nota: default-int non è più supportato in C++
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(502,13): error C4430: identificatore di tipo mancante, verrà utilizzato int. Nota: default-int non è più supportato in C++
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(583,9): warning C4005: 'IN_CLASSA': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(284,9):
+1>    vedi la precedente definizione di 'IN_CLASSA'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(589,9): warning C4005: 'IN_CLASSB': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(290,9):
+1>    vedi la precedente definizione di 'IN_CLASSB'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(595,9): warning C4005: 'IN_CLASSC': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(296,9):
+1>    vedi la precedente definizione di 'IN_CLASSC'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(606,9): warning C4005: 'INADDR_ANY': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(301,9):
+1>    vedi la precedente definizione di 'INADDR_ANY'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(608,9): warning C4005: 'INADDR_BROADCAST': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(303,9):
+1>    vedi la precedente definizione di 'INADDR_BROADCAST'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2def.h(644,16): error C2011: 'sockaddr_in': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(309,8):
+1>    vedere la dichiarazione di 'sockaddr_in'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(136,16): error C2011: 'fd_set': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(65,16):
+1>    vedere la dichiarazione di 'fd_set'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(158,9): warning C4005: 'FD_SET': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(96,9):
+1>    vedi la precedente definizione di 'FD_SET'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(180,8): error C2011: 'timeval': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(108,8):
+1>    vedere la dichiarazione di 'timeval'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(236,9): error C2011: 'hostent': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(164,9):
+1>    vedere la dichiarazione di 'hostent'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(249,9): error C2011: 'netent': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(177,9):
+1>    vedere la dichiarazione di 'netent'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(256,9): error C2011: 'servent': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(184,9):
+1>    vedere la dichiarazione di 'servent'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(268,9): error C2011: 'protoent': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(196,9):
+1>    vedere la dichiarazione di 'protoent'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(364,16): error C2011: 'WSAData': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(319,16):
+1>    vedere la dichiarazione di 'WSAData'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(462,8): error C2011: 'sockproto': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(491,8):
+1>    vedere la dichiarazione di 'sockproto'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(504,9): error C2011: 'linger': ridefinizione tipo 'struct'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(528,9):
+1>    vedere la dichiarazione di 'linger'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(517,9): warning C4005: 'SOMAXCONN': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(541,9):
+1>    vedi la precedente definizione di 'SOMAXCONN'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(551,9): warning C4005: 'FD_READ': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(559,9):
+1>    vedi la precedente definizione di 'FD_READ'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(554,9): warning C4005: 'FD_WRITE': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(560,9):
+1>    vedi la precedente definizione di 'FD_WRITE'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(557,9): warning C4005: 'FD_OOB': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(561,9):
+1>    vedi la precedente definizione di 'FD_OOB'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(560,9): warning C4005: 'FD_ACCEPT': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(562,9):
+1>    vedi la precedente definizione di 'FD_ACCEPT'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(563,9): warning C4005: 'FD_CONNECT': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(563,9):
+1>    vedi la precedente definizione di 'FD_CONNECT'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(566,9): warning C4005: 'FD_CLOSE': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(564,9):
+1>    vedi la precedente definizione di 'FD_CLOSE'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1633,1): error C2375: 'accept': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(739,19):
+1>    vedere la dichiarazione di 'accept'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1655,1): error C2375: 'bind': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(744,16):
+1>    vedere la dichiarazione di 'bind'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1676,1): error C2375: 'closesocket': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(749,16):
+1>    vedere la dichiarazione di 'closesocket'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1693,1): error C2375: 'connect': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(751,16):
+1>    vedere la dichiarazione di 'connect'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1714,1): error C2375: 'ioctlsocket': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(756,16):
+1>    vedere la dichiarazione di 'ioctlsocket'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1737,1): error C2375: 'getpeername': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(761,16):
+1>    vedere la dichiarazione di 'getpeername'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1758,1): error C2375: 'getsockname': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(766,16):
+1>    vedere la dichiarazione di 'getsockname'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1779,1): error C2375: 'getsockopt': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(771,16):
+1>    vedere la dichiarazione di 'getsockopt'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1804,1): error C2375: 'htonl': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(778,19):
+1>    vedere la dichiarazione di 'htonl'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1821,1): error C2375: 'htons': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(780,20):
+1>    vedere la dichiarazione di 'htons'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1839,1): error C2375: 'inet_addr': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(782,26):
+1>    vedere la dichiarazione di 'inet_addr'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1857,1): error C2375: 'inet_ntoa': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(784,23):
+1>    vedere la dichiarazione di 'inet_ntoa'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1957,1): error C2375: 'listen': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(786,16):
+1>    vedere la dichiarazione di 'listen'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1976,1): error C2375: 'ntohl': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(790,19):
+1>    vedere la dichiarazione di 'ntohl'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(1993,1): error C2375: 'ntohs': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(792,20):
+1>    vedere la dichiarazione di 'ntohs'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2010,1): error C2375: 'recv': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(794,16):
+1>    vedere la dichiarazione di 'recv'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2033,1): error C2375: 'recvfrom': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(800,16):
+1>    vedere la dichiarazione di 'recvfrom'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2060,1): error C2375: 'select': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(808,16):
+1>    vedere la dichiarazione di 'select'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2085,1): error C2375: 'send': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(815,16):
+1>    vedere la dichiarazione di 'send'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2108,1): error C2375: 'sendto': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(821,16):
+1>    vedere la dichiarazione di 'sendto'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2135,1): error C2375: 'setsockopt': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(829,16):
+1>    vedere la dichiarazione di 'setsockopt'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2160,1): error C2375: 'shutdown': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(836,16):
+1>    vedere la dichiarazione di 'shutdown'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2180,1): error C2375: 'socket': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(840,19):
+1>    vedere la dichiarazione di 'socket'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2205,1): error C2375: 'gethostbyaddr': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(847,33):
+1>    vedere la dichiarazione di 'gethostbyaddr'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2227,1): error C2375: 'gethostbyname': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(852,33):
+1>    vedere la dichiarazione di 'gethostbyname'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2244,1): error C2375: 'gethostname': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(854,16):
+1>    vedere la dichiarazione di 'gethostname'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2284,1): error C2375: 'getservbyport': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(858,33):
+1>    vedere la dichiarazione di 'getservbyport'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2303,1): error C2375: 'getservbyname': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(862,33):
+1>    vedere la dichiarazione di 'getservbyname'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2322,1): error C2375: 'getprotobynumber': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(866,34):
+1>    vedere la dichiarazione di 'getprotobynumber'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2339,1): error C2375: 'getprotobyname': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(868,34):
+1>    vedere la dichiarazione di 'getprotobyname'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2359,1): error C2375: 'WSAStartup': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(872,16):
+1>    vedere la dichiarazione di 'WSAStartup'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2379,1): error C2375: 'WSACleanup': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(876,16):
+1>    vedere la dichiarazione di 'WSACleanup'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2396,1): error C2375: 'WSASetLastError': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(878,17):
+1>    vedere la dichiarazione di 'WSASetLastError'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2413,1): error C2375: 'WSAGetLastError': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(880,16):
+1>    vedere la dichiarazione di 'WSAGetLastError'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2434,1): error C2375: 'WSAIsBlocking': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(882,17):
+1>    vedere la dichiarazione di 'WSAIsBlocking'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2452,1): error C2375: 'WSAUnhookBlockingHook': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(884,16):
+1>    vedere la dichiarazione di 'WSAUnhookBlockingHook'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2470,1): error C2375: 'WSASetBlockingHook': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(886,20):
+1>    vedere la dichiarazione di 'WSASetBlockingHook'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2488,1): error C2375: 'WSACancelBlockingCall': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(888,16):
+1>    vedere la dichiarazione di 'WSACancelBlockingCall'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2506,1): error C2375: 'WSAAsyncGetServByName': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(890,19):
+1>    vedere la dichiarazione di 'WSAAsyncGetServByName'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2534,1): error C2375: 'WSAAsyncGetServByPort': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(898,19):
+1>    vedere la dichiarazione di 'WSAAsyncGetServByPort'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2562,1): error C2375: 'WSAAsyncGetProtoByName': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(906,19):
+1>    vedere la dichiarazione di 'WSAAsyncGetProtoByName'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2588,1): error C2375: 'WSAAsyncGetProtoByNumber': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(913,19):
+1>    vedere la dichiarazione di 'WSAAsyncGetProtoByNumber'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2614,1): error C2375: 'WSAAsyncGetHostByName': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(920,19):
+1>    vedere la dichiarazione di 'WSAAsyncGetHostByName'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2640,1): error C2375: 'WSAAsyncGetHostByAddr': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(927,19):
+1>    vedere la dichiarazione di 'WSAAsyncGetHostByAddr'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2670,1): error C2375: 'WSACancelAsyncRequest': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(936,16):
+1>    vedere la dichiarazione di 'WSACancelAsyncRequest'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(2688,1): error C2375: 'WSAAsyncSelect': ridefinizione. Collegamento differente.
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(938,16):
+1>    vedere la dichiarazione di 'WSAAsyncSelect'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(4320,1): error C2059: errore di sintassi: '}'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock2.h(4320,1): error C2143: errore di sintassi: ';' mancante prima di '}'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(42,12): error C2143: errore di sintassi: ';' mancante prima di '{'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(42,12): error C2447: '{': intestazione di funzione mancante. Elenco formale di tipo obsoleto?
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(135,9): warning C4005: 'IP_TOS': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(349,9):
+1>    vedi la precedente definizione di 'IP_TOS'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(136,9): warning C4005: 'IP_TTL': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(348,9):
+1>    vedi la precedente definizione di 'IP_TTL'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(137,9): warning C4005: 'IP_MULTICAST_IF': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(343,9):
+1>    vedi la precedente definizione di 'IP_MULTICAST_IF'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(138,9): warning C4005: 'IP_MULTICAST_TTL': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(344,9):
+1>    vedi la precedente definizione di 'IP_MULTICAST_TTL'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(139,9): warning C4005: 'IP_MULTICAST_LOOP': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(345,9):
+1>    vedi la precedente definizione di 'IP_MULTICAST_LOOP'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(140,9): warning C4005: 'IP_ADD_MEMBERSHIP': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(346,9):
+1>    vedi la precedente definizione di 'IP_ADD_MEMBERSHIP'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(141,9): warning C4005: 'IP_DROP_MEMBERSHIP': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(347,9):
+1>    vedi la precedente definizione di 'IP_DROP_MEMBERSHIP'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\ws2ipdef.h(142,9): warning C4005: 'IP_DONTFRAGMENT': ridefinizione macro
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winsock.h(350,9):
+1>    vedi la precedente definizione di 'IP_DONTFRAGMENT'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(733,10): error C2061: errore di sintassi: identificatore 'MULTICAST_MODE_TYPE'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(740,5): error C2065: 'PIP_MSFILTER': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(740,18): error C2146: errore di sintassi: ';' mancante prima dell'identificatore 'Filter'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(740,18): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(742,9): error C2065: 'SourceCount': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(743,40): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(743,60): error C2065: 'SourceList': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(748,12): error C2065: 'IP_MSFILTER': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(748,12): error C2065: 'SourceCount': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(749,5): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(749,15): error C2065: 'PIP_MSFILTER': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(749,29): error C2146: errore di sintassi: ';' mancante prima dell'identificatore 'HeapAlloc'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(750,9): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(755,5): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(756,5): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(757,5): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(757,26): error C2065: 'FilterMode': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(758,5): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(758,27): error C2065: 'SourceCount': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(759,9): error C2065: 'SourceCount': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(760,9): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(760,9): error C2065: 'SourceList': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(760,9): error C2065: 'SourceCount': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(760,9): error C2660: 'memcpy': la funzione non accetta 2 argomenti
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>    D:\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\include\vcruntime_string.h(43,15):
+1>    vedere la dichiarazione di 'memcpy'
+1>    C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(760,9):
+1>    durante la ricerca di corrispondenza con l'elenco di argomenti '()'
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(764,47): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(767,35): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(779,11): error C2061: errore di sintassi: identificatore 'MULTICAST_MODE_TYPE'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(786,5): error C2065: 'PIP_MSFILTER': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(786,18): error C2146: errore di sintassi: ';' mancante prima dell'identificatore 'Filter'
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(786,18): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(788,10): error C2065: 'SourceCount': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(789,40): error C2065: 'Filter': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(789,60): error C2065: 'SourceList': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(794,12): error C2065: 'IP_MSFILTER': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(794,12): error C2065: 'SourceCount': identificatore non dichiarato
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
+1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\ws2tcpip.h(794,12): error C1003: il conteggio degli errori supera 100. Interruzione della compilazione
+1>(compilazione del file di origine 'Pipes/PipesHandler.cpp')
